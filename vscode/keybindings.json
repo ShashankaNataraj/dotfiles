@@ -1,0 +1,92 @@
+[
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f12",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.selectTheme"
+    },{
+        "key": "cmd+t",
+        "command": "workbench.action.git.pull"
+    },{
+        "key": "cmd+k",
+        "command": "workbench.action.git.push"
+    },{
+        "key":"cmd+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },{
+        "key":"cmd+`",
+        "command": "workbench.action.splitEditor"
+    },{
+        "key":"cmd+b",
+        "command": "gitlens.toggleBlame"
+    },{
+        "key":"cmd+u",
+        "command": "git.pull"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+-",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+0",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+=",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+d",
+        "command": "sublime-duplicate-text.duplicateText"
+    },
+    {
+        "key":"cmd+]",
+        "command": "workbench.action.compareEditor.nextChange"
+    },
+    {
+        "key":"cmd+[",
+        "command": "workbench.action.compareEditor.previousChange"
+    }
+]
